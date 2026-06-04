@@ -56,8 +56,8 @@ export function BarChart({ items }: BarChartProps) {
                 className="group relative rounded-t-md"
                 style={{
                   background: color,
-                  width: "72%",
-                  maxWidth: "80px",
+                  width: "90%",
+                  maxWidth: "100px",
                   minHeight: "4px",
                 }}
                 initial={{ height: 0 }}
