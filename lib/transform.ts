@@ -5,7 +5,7 @@ import type {
   ClusterKey,
   AggregationLevel,
   NamespaceKey,
-} from "../types/dashboard";
+} from "@/types/dashboard";
 
 const NAMESPACE_KEYS: NamespaceKey[] = ["Alpha", "Beta", "Gamma", "Delta"];
 const POD_LETTERS = ["A", "B", "C", "D"] as const;
